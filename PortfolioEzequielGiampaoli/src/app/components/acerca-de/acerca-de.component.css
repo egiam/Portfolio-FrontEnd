@@ -1,0 +1,57 @@
+.row {
+    padding: 20px;
+}
+
+div {
+    background-color: #a1b5cb;
+    text-align: center;
+}
+
+#nombre {
+    font-weight: bold;
+    margin-top: 30%;
+}
+
+@media (max-width: 1600px) {
+    #fotoDePerfil {
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 300px;
+    }
+}
+
+@media (max-width: 890px) {
+    #fotoDePerfil {
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 400px;
+    }
+}
+
+@media (max-width: 575px) {
+    #fotoDePerfil {
+        position: absolute;
+        width: 34%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 33%;
+        top: 350px;
+    }
+}
+
+@media (max-width: 380px) {
+    #fotoDePerfil {
+        position: absolute;
+        width: 50%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 25%;
+        top: 300px;
+    }
+}
