@@ -17,3 +17,10 @@ Dir a utilizar -> ng new PortfolioEzequielGiampaoli
 <!-- //Comando abreviado para crear un componente nuevo -->
 
 -> ng g c (nombre_carpeta)
+
+---
+
+Colocar barras de progreso en circulos a angular:
+https://www.npmjs.com/package/ng-circle-progress
+
+-> npm i ng-circle-progress
