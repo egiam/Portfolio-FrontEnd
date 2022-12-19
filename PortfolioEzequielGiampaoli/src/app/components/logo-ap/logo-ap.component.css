@@ -1,3 +1,36 @@
 #logoAP {
     width: 150px;
 }
+
+img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+button {
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Phone view */
+
+@media (max-width: 599px) {
+    .container {
+        flex-direction: column;
+    }
+    .redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes img,
+    .redes button {
+        margin: 0.3em;
+    }
+}
