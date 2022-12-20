@@ -26,3 +26,7 @@ Colocar barras de progreso en circulos a angular:
 https://www.npmjs.com/package/ng-circle-progress
 
 -> npm i ng-circle-progress
+
+---
+
+ng g s service/persona
